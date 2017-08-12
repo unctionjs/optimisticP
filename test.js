@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import optimisticP from "./source.js"
+import nestedApply from "./source"
 
 test(({includes}) => {
   return optimisticP(
