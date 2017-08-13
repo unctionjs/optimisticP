@@ -6,7 +6,7 @@ import optimisticP from "./source"
 test(({includes}) => {
   return optimisticP(
     [
-      Promise.resolve("a")
+      Promise.resolve("a"),
     ]
   )
     .then((values) => includes(values, ["a"]))
@@ -16,7 +16,7 @@ test(({includes}) => {
   return optimisticP(
     [
       Promise.resolve("a"),
-      Promise.reject(new Error("b"))
+      Promise.reject(new Error("b")),
     ]
   )
     .then((values) => includes(values, ["a"]))
@@ -26,7 +26,7 @@ test(({includes}) => {
   return optimisticP(
     [
       Promise.resolve("a"),
-      Promise.resolve("c")
+      Promise.resolve("c"),
     ]
   )
     .then((values) => includes(values, ["a", "c"]))
@@ -37,7 +37,7 @@ test(({includes}) => {
     [
       Promise.resolve("a"),
       Promise.reject(new Error("b")),
-      Promise.resolve("c")
+      Promise.resolve("c"),
     ]
   )
     .then((values) => includes(values, ["a", "c"]))

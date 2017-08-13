@@ -47,6 +47,7 @@
     "tap": "10.3.3"
   },
   "dependencies": {
+    "@unction/pipe": "*",
     "@unction/allp": "^1.0.4",
     "@unction/key": "^1.0.0",
     "@unction/mapvalues": "^2.0.3",
