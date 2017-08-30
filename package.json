@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "@unction/allp": "2.0.0",
-    "@unction/key": "2.0.0",
+    "@unction/key": "3.0.0",
     "@unction/mapvalues": "3.0.0",
     "@unction/pipe": "2.0.0",
     "@unction/recordfrom": "2.0.0",
