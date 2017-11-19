@@ -51,10 +51,10 @@
   },
   "dependencies": {
     "@unction/allp": "2.6.0",
-    "@unction/key": "4.7.0",
-    "@unction/mapvalues": "3.34.0",
-    "@unction/pipe": "2.33.0",
-    "@unction/recordfrom": "2.33.0",
+    "@unction/key": "4.8.0",
+    "@unction/mapvalues": "3.35.0",
+    "@unction/pipe": "2.34.0",
+    "@unction/recordfrom": "2.34.0",
     "@unction/thencatchp": "2.6.0",
     "@unction/thenp": "2.6.0",
     "ramda": "0.24.1"
