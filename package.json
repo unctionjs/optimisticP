@@ -54,7 +54,7 @@
     "@unction/key": "4.11.0",
     "@unction/mapvalues": "3.44.0",
     "@unction/pipe": "2.43.0",
-    "@unction/recordfrom": "2.44.0",
+    "@unction/recordfrom": "2.45.0",
     "@unction/thencatchp": "2.8.0",
     "@unction/thenp": "2.8.0",
     "ramda": "0.24.1"
