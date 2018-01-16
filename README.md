@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<mixed | Promise<mixed>> -> Promise<Array<mixed>>
+> Array<mixed | Promise<mixed>> => Promise<Array<mixed>>
 
 Will take an array of promises and returns a promise of only the resolved promises.
 
