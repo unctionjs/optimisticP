@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-return-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import optimisticP from "./index"
+import optimisticP from "./index";
 
 test(({includes}) => {
   return optimisticP(
@@ -9,8 +9,8 @@ test(({includes}) => {
       Promise.resolve("a"),
     ]
   )
-    .then((values) => includes(values, ["a"]))
-})
+    .then((values) => includes(values, ["a"]));
+});
 
 test(({includes}) => {
   return optimisticP(
@@ -19,8 +19,8 @@ test(({includes}) => {
       Promise.reject(new Error("b")),
     ]
   )
-    .then((values) => includes(values, ["a"]))
-})
+    .then((values) => includes(values, ["a"]));
+});
 
 test(({includes}) => {
   return optimisticP(
@@ -29,8 +29,8 @@ test(({includes}) => {
       Promise.resolve("c"),
     ]
   )
-    .then((values) => includes(values, ["a", "c"]))
-})
+    .then((values) => includes(values, ["a", "c"]));
+});
 
 test(({includes}) => {
   return optimisticP(
@@ -40,5 +40,5 @@ test(({includes}) => {
       Promise.resolve("c"),
     ]
   )
-    .then((values) => includes(values, ["a", "c"]))
-})
+    .then((values) => includes(values, ["a", "c"]));
+});
