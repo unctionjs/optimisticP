@@ -1,16 +1,17 @@
 import mapValues from "@unction/mapvalues";
-import recordfrom from "@unction/recordfrom";
+import objectFrom from "@unction/objectfrom";
 import pipe from "@unction/pipe";
-import key from "@unction/key";
+import get from "@unction/get";
 import {has} from "ramda";
-import {reject} from "ramda";
+import rejectByValue from "@unction/rejectbyvalue";
 import thenCatchP from "@unction/thencatchp";
 import thenP from "@unction/thenp";
 import allP from "@unction/allp";
-const asResolved = recordfrom(["resolved"]);
-const asRejected = recordfrom(["rejected"]);
-const onlyResolved = reject(has("rejected"));
-const resolvedValues = mapValues(key("resolved"));
+
+const asResolved = objectFrom(["resolved"]);
+const asRejected = objectFrom(["rejected"]);
+const onlyResolved = rejectByValue(has("rejected"));
+const resolvedValues = mapValues(get("resolved"));
 const onlyResolvedValues = pipe([onlyResolved, resolvedValues]);
 
 export default function optimisticP (promises) {
