@@ -51,13 +51,13 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/allp": "3.0.0",
+    "@unction/allp": "4.0.0",
     "@unction/key": "8.0.0",
-    "@unction/mapvalues": "9.0.0",
-    "@unction/pipe": "9.0.0",
+    "@unction/mapvalues": "10.1.0",
+    "@unction/pipe": "10.1.0",
     "@unction/recordfrom": "9.0.0",
-    "@unction/thencatchp": "3.0.0",
-    "@unction/thenp": "3.0.0",
+    "@unction/thencatchp": "4.0.0",
+    "@unction/thenp": "4.0.0",
     "ramda": "0.24.1"
   },
   "nyc": {
