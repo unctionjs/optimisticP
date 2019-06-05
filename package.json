@@ -54,9 +54,9 @@
     "@unction/allp": "4.0.0",
     "@unction/get": "2.1.0",
     "@unction/mapvalues": "10.1.0",
-    "@unction/objectfrom": "1.0.0",
+    "@unction/objectfrom": "1.1.0",
     "@unction/pipe": "10.1.0",
-    "@unction/rejectbyvalue": "1.0.0",
+    "@unction/rejectbyvalue": "1.1.0",
     "@unction/thencatchp": "4.0.0",
     "@unction/thenp": "4.0.0",
     "ramda": "0.24.1"
