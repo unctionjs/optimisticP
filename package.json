@@ -1,6 +1,6 @@
 {
   "name": "@unction/optimisticp",
-  "version": "12.5.0",
+  "version": "12.6.0",
   "description": "Given a set of promises only return the resolved promises",
   "keywords": [
     "unction",
