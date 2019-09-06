@@ -1,7 +1,7 @@
 
 import optimisticP from "./index";
 
-test(() => {
+test("works", () => {
   return optimisticP(
     [
       Promise.resolve("a"),
@@ -10,7 +10,7 @@ test(() => {
     .then((values) => t.includes(values, ["a"]));
 });
 
-test(() => {
+test("works", () => {
   return optimisticP(
     [
       Promise.resolve("a"),
@@ -20,7 +20,7 @@ test(() => {
     .then((values) => t.includes(values, ["a"]));
 });
 
-test(() => {
+test("works", () => {
   return optimisticP(
     [
       Promise.resolve("a"),
@@ -30,7 +30,7 @@ test(() => {
     .then((values) => t.includes(values, ["a", "c"]));
 });
 
-test(() => {
+test("works", () => {
   return optimisticP(
     [
       Promise.resolve("a"),
