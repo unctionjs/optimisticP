@@ -1,5 +1,5 @@
 
-import optimisticP from "./index.ts";
+import optimisticP from "./index";
 
 test(() => {
   return optimisticP(
