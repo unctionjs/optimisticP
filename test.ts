@@ -1,38 +1,36 @@
 
-import {test} from "tap";
+import optimisticP from "./index.ts";
 
-import optimisticP from "./";
-
-test(({includes}) => {
+test(() => {
   return optimisticP(
     [
       Promise.resolve("a"),
     ]
   )
-    .then((values) => includes(values, ["a"]));
+    .then((values) => t.includes(values, ["a"]));
 });
 
-test(({includes}) => {
+test(() => {
   return optimisticP(
     [
       Promise.resolve("a"),
       Promise.reject(new Error("b")),
     ]
   )
-    .then((values) => includes(values, ["a"]));
+    .then((values) => t.includes(values, ["a"]));
 });
 
-test(({includes}) => {
+test(() => {
   return optimisticP(
     [
       Promise.resolve("a"),
       Promise.resolve("c"),
     ]
   )
-    .then((values) => includes(values, ["a", "c"]));
+    .then((values) => t.includes(values, ["a", "c"]));
 });
 
-test(({includes}) => {
+test(() => {
   return optimisticP(
     [
       Promise.resolve("a"),
@@ -40,5 +38,5 @@ test(({includes}) => {
       Promise.resolve("c"),
     ]
   )
-    .then((values) => includes(values, ["a", "c"]));
+    .then((values) => t.includes(values, ["a", "c"]));
 });
