@@ -53,14 +53,14 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/allp": "4.1.1",
-    "@unction/get": "2.7.0",
-    "@unction/mapvalues": "10.6.0",
-    "@unction/objectfrom": "1.7.0",
-    "@unction/pipe": "10.6.0",
-    "@unction/rejectbyvalue": "1.7.0",
-    "@unction/thencatchp": "4.2.1",
-    "@unction/thenp": "4.2.1",
+    "@unction/allp": "4.1.2",
+    "@unction/get": "2.8.0",
+    "@unction/mapvalues": "10.8.0",
+    "@unction/objectfrom": "1.8.0",
+    "@unction/pipe": "10.8.0",
+    "@unction/rejectbyvalue": "1.8.0",
+    "@unction/thencatchp": "4.2.2",
+    "@unction/thenp": "4.2.2",
     "ramda": "0.24.1"
   },
   "files": [
