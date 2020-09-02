@@ -64,14 +64,14 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "@unction/allp": "4.1.3",
-    "@unction/get": "2.10.0",
-    "@unction/mapvalues": "10.10.0",
-    "@unction/objectfrom": "1.10.0",
-    "@unction/pipe": "10.10.0",
-    "@unction/rejectbyvalue": "1.9.1",
-    "@unction/thencatchp": "4.2.3",
-    "@unction/thenp": "4.2.3",
+    "@unction/allp": "^4.1.4",
+    "@unction/get": "^2.11.0",
+    "@unction/mapvalues": "^10.11.0",
+    "@unction/objectfrom": "^1.11.0",
+    "@unction/pipe": "^10.11.0",
+    "@unction/rejectbyvalue": "^1.11.0",
+    "@unction/thencatchp": "^4.2.4",
+    "@unction/thenp": "^4.2.4",
     "ramda": "0.24.1"
   }
 }
