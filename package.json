@@ -70,9 +70,9 @@
     "@unction/allp": "^4.1.4",
     "@unction/get": "^2.12.0",
     "@unction/mapvalues": "^10.12.0",
-    "@unction/objectfrom": "^1.12.0",
-    "@unction/pipe": "^10.12.0",
-    "@unction/rejectbyvalue": "^1.12.0",
+    "@unction/objectfrom": "^1.13.0",
+    "@unction/pipe": "^10.13.0",
+    "@unction/rejectbyvalue": "^1.13.0",
     "@unction/thencatchp": "^4.2.4",
     "@unction/thenp": "^4.2.4",
     "ramda": "0.24.1"
